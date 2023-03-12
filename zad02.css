@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -74,12 +75,17 @@ footer {
 
 .titleContainer h1 {
     margin: 0.2rem;
-    color: #642121;
+    color: #a50044;
+    font-size: 5em;
+    align-self: center;
 }
 
 .titleContainer h3 {
     margin: 0.2rem;
     align-self: center;
+    font-size: 2em;
+    color: #004d98;
+    font-weight: 700;
 }
 
 .infoContainer {
@@ -88,18 +94,15 @@ footer {
     gap: 10rem;
 }
 
+img {
+    align-self: flex-start;
+}
+
 .logo {
-    width: 100%;
-    height: 100%;
     max-width: 250px;
-    max-height: 250px;
     height: auto;
 }
 
 .squad {
-    width: 100%;
-    height: 100%;
-    max-width: 400px;
     max-height: 250px;
-    height: auto;
 }
